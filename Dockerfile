@@ -1,4 +1,4 @@
-FROM hulklab/openresty:0.0.1
+FROM hulklab/openresty:1.15.8-1
 
 RUN luarocks install apisix 0.9-0; \
     luarocks install lua-resty-cookie; \
